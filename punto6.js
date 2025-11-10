@@ -6,6 +6,7 @@ while (true) // Bucle infinito
     if (numero == random) // Verificar si el número es igual al número aleatorio
     {
         alert("Numero encontrado"); // Mostrar mensaje de éxito
+        break; // Salir del bucle si el número es encontrado
     }
     else{
         if (numero > random) // Verificar si el número es mayor que el número aleatorio
